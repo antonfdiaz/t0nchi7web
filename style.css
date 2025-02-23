@@ -2,9 +2,17 @@
     font-family: "pixelarial";
     src: url("fonts/pixelarial.ttf");
 }
+@font-face {
+    font-family: "babydoll";
+    src: url("fonts/Baby\ Doll.ttf");
+}
+@font-face {
+    font-family: "holidayshomework";
+    src: url("fonts/Holidays\ Homework.ttf");
+}
 body {
     text-align: center;
-    font-family: "Futura";
+    font-family: "babydoll";
     background: rgb(255,126,0);
     background: linear-gradient(180deg,rgba(255,126,0,1) 35%,rgb(255,200,0) 100%);
 }
@@ -39,4 +47,12 @@ input {
 }
 #navbar a:hover {
     text-decoration: underline;
+}
+.img-left {
+    position: absolute;
+    left: 200px;
+}
+.img-right {
+    position: absolute;
+    right: 256px;
 }
