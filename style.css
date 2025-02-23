@@ -1,7 +1,30 @@
+body {
+    text-align: center;
+    font-family: "Futura";
+    background: rgb(255,126,0);
+    background: linear-gradient(180deg,rgba(255,126,0,1) 35%,rgb(255,200,0) 100%);
+}
+li {
+    list-style: none;
+    margin-right: 32px;
+}
 #cookies-popup {
     background-image: url("images/cookies.jpg");
     background-size: cover;
     height: 56px;
     border: 1.5px solid black;
     color: white;
+}
+hr {
+    border: 1px solid orange;
+}
+#logo {
+    transition: all 0.2s ease;
+}
+#logo:hover {
+    transform: scale(1.05);
+}
+input {
+    background-color: rgba(255,255,255,0.7);
+    border: 1.5px solid rgba(0,0,0,0.35);
 }
