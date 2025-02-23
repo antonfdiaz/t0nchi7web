@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "pixelarial";
+    src: url("fonts/pixelarial.ttf");
+}
 body {
     text-align: center;
     font-family: "Futura";
@@ -14,6 +18,7 @@ li {
     height: 56px;
     border: 1.5px solid black;
     color: white;
+    font-family: "pixelarial";
 }
 hr {
     border: 1px solid orange;
